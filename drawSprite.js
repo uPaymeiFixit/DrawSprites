@@ -1,0 +1,2 @@
+/* @author Josh Gibbs - uPaymeiFixit@gmail.com */
+var fr=0;Object.prototype.drawSprite=function(ob){this.drawImage(ob.image,(fr++%(ob.image.width/ob.width))*ob.width,0,ob.width,ob.height,ob.x,ob.y,ob.width,ob.height);};
